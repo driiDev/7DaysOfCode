@@ -2,8 +2,11 @@
 
 :root{
     --fonte-principal: "Inter", sans-serif;
+    --branco: #FFFFFF;
     --vermelho: #8E2424;
     --cinza:#667085;
+    --cinza-escuro: #3A404E;
+    --azul-escuro: #101828;
 
 }
 
@@ -33,7 +36,7 @@ nav{
 
 #logo{
     display: flex;
-    color:#3A404E;
+    color:var(--cinza-escuro);
     font-size: 18px;
     line-height: 27px;
     gap: 8px;
@@ -69,7 +72,7 @@ li{
 #btn-entrar{
     height: 44px;
     width: 83px;
-    background-color: white;
+    background-color: var(--branco);
     border: none;
     border-radius: 8px;
     color: var(--cinza);
@@ -123,7 +126,7 @@ li{
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
-    color: #101828;
+    color: var(--azul-escuro);
     
 }
 
@@ -135,5 +138,38 @@ li{
     line-height: 30px;
     color: var(--cinza);
     padding: 12px;
+}
+
+.metricas{
+    display: flex;
+    margin: auto;
+    height: 192px;
+    width: 1280px;
+    padding: 32px;
+    column-gap: 64px;
+    
+}
+
+.numero-metricas{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -2%;
+    color: var(--vermelho);
+}
+
+.titulo-metricas{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--azul-escuro);
+}
+
+.texto-metricas{
+    width: 280px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--cinza);
 
 }

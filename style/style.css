@@ -126,8 +126,7 @@ li{
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
-    color: var(--azul-escuro);
-    
+    color: var(--azul-escuro);  
 }
 
 .p-cabecalho{
@@ -147,7 +146,6 @@ li{
     width: 1280px;
     padding: 32px;
     column-gap: 64px;
-    
 }
 
 .numero-metricas{
@@ -172,4 +170,51 @@ li{
     font-weight: 400;
     color: var(--cinza);
 
+}
+
+.vagas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px;
+    gap: 64px;
+}
+
+.vagas-talentos{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.vagas-cabecalho{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.vagas-abertas{
+    width: fit-content;
+    margin: auto;
+    background-color: #E5E5E5;
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+
+.titulo-vagas{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--azul-escuro);
+}
+
+.subtitulo-vagas{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--cinza);
 }

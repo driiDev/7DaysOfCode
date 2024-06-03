@@ -176,6 +176,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 96px;
     gap: 64px;
 }
@@ -216,5 +217,53 @@ li{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    color: var(--cinza);
+}
+
+.vagas-vagas-abertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    height: 940px;
+    padding: 0px 32px;
+    gap: 64px;
+}
+
+.vagas-abertas-titulo{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--azul-escuro);
+    padding-bottom: 32px;
+}
+
+.vagas-itens{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.vagas-item{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 136px;
+    width: 768px;
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+    border: 1px solid #EAECF0;  
+    cursor: pointer;
+}
+
+.item-titulo{
+    color: var(--azul-escuro);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.item-informacoes{
+    display: flex;
+    gap: 24px;
     color: var(--cinza);
 }

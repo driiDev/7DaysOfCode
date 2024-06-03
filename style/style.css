@@ -267,3 +267,63 @@ li{
     gap: 24px;
     color: var(--cinza);
 }
+
+.depoimentos{
+    display: flex;
+    height: 404px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #C3191908;
+    padding: 64px;
+    gap: 32px;
+    border-radius: 16px;
+
+}
+
+.depoimentos-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.depoimentos-h4{
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.depoimentos-h1{
+    color: var(--azul-escuro);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+
+}
+
+.depoimentos-avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.img-avatar{
+    margin: 16px;
+}
+
+.avatar-nome{
+    color: var(--azul-escuro);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.avatar-prof{
+    color: var(--cinza);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}

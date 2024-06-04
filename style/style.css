@@ -271,6 +271,8 @@ li{
 .depoimentos{
     display: flex;
     height: 404px;
+    width: 1280px;
+    margin: auto;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -326,4 +328,62 @@ li{
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+}
+
+.footer-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px;
+    height: 430px;
+    gap: 32px;
+    margin-top: 96px;
+    background-color: #F9FAFB;
+}
+
+.footer-h1{
+    color: var(--azul-escuro);
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.footer-texto{
+    color: var(--cinza);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-input{
+    display: flex;
+    gap: 16px;
+}
+
+input[type=email]{
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #EAECF0;
+    color: var(--cinza);
+    line-height: 24px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+input[type=button]{
+    width: 116px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.footer-direitos{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #98A2B3;
 }
